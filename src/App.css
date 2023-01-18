@@ -1,0 +1,220 @@
+* {
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    background-color: #2f7673;
+    border-radius: 15px;
+}
+
+.heading {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 20px;
+    margin: auto 0;
+
+    justify-items: center;
+    height: 75px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #2f7673;
+    color: #ffff;
+    display: block;
+    
+}
+
+h2.baricon {
+    padding: 23px;
+    color: #ffff;
+}
+
+p.subheading {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    color: #817777ad;
+    ;
+}
+
+.container {
+    /* background-color: #2f7673; */
+    /* height: 100vh; */
+    /* width: 100%; */
+    /* padding: 10px; */
+}
+
+/* p.text {
+
+    margin-left: -43px;
+} */
+
+.icon {
+    font-size: 17px;
+    color: red;
+}
+
+.css-hz1bth-MuiDialog-container{
+    align-items: flex-end !important;
+}
+
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%), 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%);
+    margin: 0px !important;
+    position: relative;
+    overflow-y: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-height: calc(100% - 64px);
+    max-width: 100% !important;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    width: 100% !important;
+}
+/* .row{
+    background-color: #2f7673;
+    height: 100vh;
+    padding: 10px;
+} */
+/* .wrapper {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #ffff;
+    width: 400px;
+} */
+
+.wrapper h2 {
+    background-color: #2f7673;
+}
+
+/* .data {
+    margin-left: 1%;
+    padding: 10px;
+    gap: 45%;
+    align-items: center;
+    display: flex;
+    padding: 1.5rem;
+    position: relative;
+} */
+
+.data{
+    display: grid;
+    grid-template-columns: 6% 91% 3%;
+ 
+    padding: 20px;
+}
+
+.data:hover{
+    background-color: #ebebeb;
+}
+
+.inputs {
+
+    text-align: center;
+    /* margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    background-color: #2f7673;
+    padding-top: 45px;
+    border-radius: 8px; */
+
+}
+
+input.checkbox {
+    height: 18px;
+    width: 100%;
+    /* margin-left: 40px; */
+    size: 34px;
+}
+
+p.activity {
+    font-family: sans-serif;
+    color: #ffff;
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom:20px;
+}
+
+input.inputTag {
+    padding: 18px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    width: 97%;
+    margin-bottom: 45px;
+}
+
+button.btn {
+    height: 40px;
+    width: 119px;
+    border-radius: 8px;
+    border: 1px solid #ffff;
+    background-color: #2f7673;
+    color: #ffff;
+}
+
+button.btnadd {
+    font-size: 1.5rem;
+    height: 52px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button.btnback{
+    border: 1px solid #ffff;
+    background-color: #2f7673;
+    color: #FFFF;
+}
+
+button.btnadd2{
+    border: 1px solid #2f7673;
+    background-color: #ffff;
+    color: #2f7673;
+}
+
+.btn-add {
+    padding: 1.5rem;
+    /* padding: 0.75rem; */
+    width: 97%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #2f7673;
+    color: #ffff;
+
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: 46% 46%;
+    gap:5%;
+    justify-content: center;
+}
+
+.MuiDialogContent-root{
+    background-color: #2f7673;
+}
+
+.activity {
+    float: left;
+    margin-left: 39px;
+    margin-bottom: 20px;
+    color: #ffff;
+}
